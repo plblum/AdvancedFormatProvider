@@ -37,8 +37,7 @@ them once, in Application_Start.</p>
      the <span style='font-family:"Courier New"'><a
      href="http://msdn.microsoft.com/en-us/library/dwhawy9k.aspx#CFormatString">N0<span
      style='font-family:"Times New Roman"'> formatter</span></a></span> built
-     into .net, except it has an option to omit group separators.</li>
-</ul>
+     into .net, except it has an option to omit group separators.
 
 <p style='margin-left:.5in'>The symbol can be followed with
 these modifiers:</p>
@@ -82,15 +81,14 @@ style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>&n
 </span></span><span style='font-family:"Courier New"'>{0:I-,7}</span>           
     11234 -&gt; &quot;0011234&quot;    (omits group separators and fills to 8
 digits)</p>
-
+</li>
+</ul>
 <ul style='margin-top:0in' type=disc>
  <li><b>CurrencyAndPercentFormatter</b> - For use with numbers
      to format them either as a currency or percent. This overrides the native
      formatters, using the same format strings (&quot;c&quot;, &quot;C&quot;,
      &quot;p&quot;, &quot;P&quot;), adding rules to omit the group separator,
-     currency or percent symbol, or decimal digits when all zero.</li>
-</ul>
-
+     currency or percent symbol, or decimal digits when all zero.
 <p style='margin-left:.5in'>The initial character can be
 followed with these modifiers:</p>
 
@@ -292,10 +290,8 @@ percent symbol and group separators)</p>
 
 <p>                                                            0.501
 -&gt; &quot;50.1&quot;</p>
-
-<p>&nbsp;</p>
-
-<p> </p>
+</li>
+</ul>
 
 <p>Add more by creating a class that implements the
 IAdvancedFormatterPlugIn interface. </p>
@@ -353,8 +349,6 @@ value of {1:C}.&quot;</span>, <span style='color:maroon'>&quot;book&quot;</span>
 10.0</span></p>
 
 <p>Result:</p>
-
-#AdvanceFormatProvider for .net
 
 <p>&quot;The book has a value of $10.00.&quot;</p>
 
