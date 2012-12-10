@@ -78,26 +78,26 @@ href="http://msdn.microsoft.com/en-us/library/system.string.format%28v=vs.100%29
       </p>
       <ul type='circle'>
          <li>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
             <code>{0:I}</code>,  <code>{0:I,}</code>      10000 -&gt;
             &quot;10,000&quot;       (includes group separators)
          </li>
 
          <li >
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
             <code>{0:I3}</code>, <code>{0:I,3} </code> 1 -&gt;
             &quot;001&quot;                  (includes group separators and fills to 3
             digits)
          </li>
 
          <li>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
             <code>{0:I-,}</code>            
                   10000 -&gt; &quot;10000&quot;        (omits group separators)
          </li>
 
          <li>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
             <code>{0:I-,7}</code>           
                 11234 -&gt; &quot;0011234&quot;    (omits group separators and fills to 8
             digits)
@@ -116,50 +116,50 @@ href="http://msdn.microsoft.com/en-us/library/system.string.format%28v=vs.100%29
       </p>
       <ul type='circle'>
          <li>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
             <code>{0:C-$}</code> - Omit the
             currency symbol. When not present, the currency symbol is used.
          </li>
 
          <li>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
             <code>{0:C$}</code> - Include
             the currency symbol. Not necessary because when there is no $, it means include
             the currency symbol
          </li>
 
          <li>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
             <code>{0:P-%}</code> - Omit the
             percent symbol. When not present, the percent symbol is used.
          </li>
 
          <li>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
             <code>{0:P%}</code> - Include
             the percent symbol. Not necessary because when there is no %, it means include
             the percent symbol
          </li>
 
          <li>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
             <code>{0:C-,}</code> or <code>{0:P-,}</code> - Omit the group separator character. When not present, the group separator is used.
          </li>
 
          <li>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
             <code>{0:C,}</code> or <code>{0:P,}</code> - Include the group separator.
             Not necessary because when there is no comma, it includes the group separator.
          </li>
 
          <li>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
             <code>{0:C-0}</code> or <code>{0:P-0}</code> - Omit the floating point part
             when its zero (the value would be the same as an integer).
          </li>
 
          <li>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
             <code>{0:C#}</code> or <code>{0:P#}</code> - The number of floating point
             digits to show where # is shown. If not specified, it uses the culture's rule.
             Use 0 to remove the floating point part. However, if not specified and the
@@ -171,75 +171,75 @@ href="http://msdn.microsoft.com/en-us/library/system.string.format%28v=vs.100%29
       </p>
       <ul type='circle'>
          <li>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
             <code>{0:C}</code>, <code>{0:C,}</code>       5.0 -&gt;
             &quot;$5.00&quot;                 (includes currency symbol and group
             separators)<br />
-            <p style='margin-left:2.0in;text-indent:.5in'>
+            <p style='margin-left:2.0in;text-indent:.5in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                5000.0 -&gt;
                &quot;$5,000.00&quot;
             </p>
-            <p style='margin-left:4.15in;text-indent:-3.4in'>
+            <p style='margin-left:4.15in;text-indent:-3.4in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                50  
                -&gt; &quot;$50&quot;                   (because it is an integer passed in)
             </p>
          </li>
 
          <li>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
             <code>{0:C-$}</code>                   5.0 
             -&gt; &quot;5.00&quot;                  (omits currency symbol; includes group
             separators)<br />
-            <p style='margin-left:2.0in;text-indent:.5in'>
+            <p style='margin-left:2.0in;text-indent:.5in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                5000.0 -&gt;
                &quot;5,000.00&quot;
             </p>
          </li>
 
          <li>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
             <code>{0:C-$-,}</code>              5000.0
             -&gt; &quot;5000.00&quot;       (omits currency symbol and group separators)
          </li>
 
          <li>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
             <code>{0:C3}</code>, <code>{0:C,3}</code>  5.00 -&gt; &quot;$5.000&quot;             (includes
             group separators and requires 3 decimal digits)
          </li>
 
          <li>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
             <code>{0:C0}</code>, <code>{0:C,0}</code>  50.0 -&gt; &quot;$50&quot;                  (includes
             group separators and removes decimal digits),
          </li>
 
          <li>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
             <code>{0:C-,}</code>                   5000.0
             -&gt; &quot;$5000.00&quot;     (omits group separators)
          </li>
 
          <li>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
             <code>{0:C-,3}</code>                5000.0
             -&gt; &quot;$5000.000&quot;   (omits group separators and requires 3 decimal
             digits)
          </li>
 
          <li>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
             <code>{0:C-,0}</code>                5000.0
             -&gt; &quot;$5000&quot;          (omits group separators and removes decimal
             digits)
          </li>
 
          <li>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
             <code>{0:C-0}</code>                   5000.00
             -&gt; &quot;$5,000&quot;       (removes decimal part when zero; includes
             currency symbol and group separators)<br />
-            <p style='margin-left:2.0in;text-indent:.5in'>
+            <p style='margin-left:2.0in;text-indent:.5in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                5000.01 -&gt;
                &quot;$5,000.01&quot;
             </p>
@@ -247,11 +247,11 @@ href="http://msdn.microsoft.com/en-us/library/system.string.format%28v=vs.100%29
          </li>
 
          <li>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
             <code>{0:C-$-,-0}</code>         5000.0
             -&gt; &quot;5000&quot;            (removes decimal part when zero; omits
             currency symbol and group separators)<br />
-            <p style='margin-left:2.0in;text-indent:.5in'>
+            <p style='margin-left:2.0in;text-indent:.5in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                5000.01 -&gt;
                &quot;5000.01&quot;
             </p>
@@ -264,15 +264,15 @@ href="http://msdn.microsoft.com/en-us/library/system.string.format%28v=vs.100%29
       </p>
       <ul type='circle'>
          <li>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
             <code>{0:P}</code>, <code>{0:P,}</code>       0.50 -&gt; &quot;50.00
             %&quot;           (includes percent symbol and group separators)<br/>
-            <p style='margin-left:2.0in;text-indent:.5in'>
+            <p style='margin-left:2.0in;text-indent:.5in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                50.0 -&gt;
                &quot;5,000.00 %&quot;
             </p>
 
-            <p style='margin-left:2.0in;text-indent:.5in'>
+            <p style='margin-left:2.0in;text-indent:.5in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                50   -&gt;
                &quot;5,000 %&quot;           (because it is an integer passed in)
             </p>
@@ -280,10 +280,10 @@ href="http://msdn.microsoft.com/en-us/library/system.string.format%28v=vs.100%29
 
 
          <li>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
             <code>{0:P-%}</code>                   0.50
             -&gt; &quot;50.00&quot;               (omits percent symbol; includes group separators)<br />
-            <p style='margin-left:2.0in;text-indent:.5in'>
+            <p style='margin-left:2.0in;text-indent:.5in'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                50.0 -&gt;
                &quot;5,000.00&quot;  
             </p>
@@ -292,50 +292,50 @@ href="http://msdn.microsoft.com/en-us/library/system.string.format%28v=vs.100%29
 
 
          <li>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
             <code>{0:P-%-,}</code>              50.0
             -&gt; &quot;5000.00&quot;           (omits percent symbol and group separators)
 
          </li>
 
          <li>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
             <code>{0:P3}</code>, <code>{0:P,3}</code>  0.50 -&gt; &quot;50.000
             %&quot;         (includes group separators and requires 3 decimal digits)
          </li>
 
          <li>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
             <code>{0:P0}</code>, <code>{0:P,0}</code>  50.0 -&gt; &quot;$5,000&quot;             (includes
             group separators and removes decimal digits)
          </li>
 
          <li>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <code>{0:P-,}       </code>50.0
+            
+            <code>{0:P-,}</code>                50.0
             -&gt; &quot;5000.0 %&quot;         (omits group separators)
          </li>
 
          <li>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
             <code>{0:P-,3}</code>                50.0
             -&gt; &quot;5000.000 %&quot;     (omits group separators and requires 3 decimal
             digits),
          </li>
 
          <li>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
             <code>{0:P-,0}</code>                50.0
             -&gt; &quot;5000 %&quot;            (omits group separators and removes decimal
             digits)
          </li>
 
          <li>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
             <code>{0:P-0}</code>                   0.50
             -&gt; &quot;50 %&quot;                (removes decimal part when zero; includes
             percent symbol and group separators)<br />
-            <p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                0.501
                -&gt; &quot;50.1 %&quot;
             </p>
@@ -344,10 +344,10 @@ href="http://msdn.microsoft.com/en-us/library/system.string.format%28v=vs.100%29
 
 
          <li>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
             <code>{0:P-%-,-0}</code>         0.50
             -&gt; &quot;50&quot;                    (removes decimal part when zero; omits percent symbol and group separators)<br />
-            <p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                0.501
                -&gt; &quot;50.1&quot;
             </p>
@@ -516,7 +516,7 @@ href="http://msdn.microsoft.com/en-US/library/system.globalization.cultureinfo%2
    startup code, call <code>
       AdvancedFormatProvider.RegisterFormatPlugIn(<span
 style='color:blue'>new</span> YourClass())
-      </span> passing an instance of your
+      </code> passing an instance of your
       class. Your object will be maintained globally.
    </p>
 
